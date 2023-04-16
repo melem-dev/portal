@@ -1,0 +1,45 @@
+<?php
+
+return [
+    'name' => 'Relatório',
+    'widget' => [
+        'order' => [
+            'title' => 'Ordens',
+        ],
+    ],
+    'count' => [
+        'revenue' => 'Hoje receita',
+        'orders' => 'Hoje encomendas',
+        'products' => 'Total de produtos',
+        'customers' => 'Total de clientes',
+    ],
+    'product_name' => 'Nome do Produto',
+    'quantity' => 'Quantidade',
+    'revenue_statistics' => 'Estatísticas de receita',
+    'top_selling_products' => 'Produtos mais vendidos',
+    'ranges' => [
+        'today' => 'Hoje',
+        'this_week' => 'Essa semana',
+        'last_7_days' => 'Últimos 7 dias',
+        'last_30_days' => 'Últimos 30 dias',
+        'this_month' => 'This month',
+        'this_year' => 'Este ano',
+    ],
+    'revenue_this_month' => 'Receita este mês',
+    'order_processing_this_month' => 'Pedido (s) Processamento neste mês',
+    'order_completed_this_month' => 'Pedidos concluídos neste mês',
+    'product_will_be_out_of_stock' => 'Produtos estarão fora de estoque em breve',
+    'product_out_of_stock' => 'Produto (s) fora de estoque',
+    'sales_reports' => 'Relatórios de vendas',
+    'total_earnings' => 'Ganhos totais',
+    'recent_orders' => 'pedidos recentes',
+    'statistics' => 'Estatisticas',
+    'items_earning_sales' => 'Itens ganhando vendas: :value',
+    'revenue' => 'receita',
+    'orders' => 'Ordens',
+    'products' => 'Produtos',
+    'customers' => 'Clientes',
+    'earnings' => 'Ganhos',
+    'date_range_format_value' => 'A partir deparafrom to :to',
+    'select_range' => 'Selecione Faixa',
+];

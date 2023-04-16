@@ -1,0 +1,30 @@
+<?php
+
+return [
+    'create' => 'Crie uma nova postagem',
+    'edit' => 'Editar post',
+    'form' => [
+        'name' => 'Nome',
+        'name_placeholder' => 'Nome de Post (máximo :c cpersonagens',
+        'description' => 'Description',
+        'description_placeholder' => 'Breve descrição para postagem (máximo :personagensrs)',
+        'categories' => 'Categorias',
+        'tags' => 'Tag',
+        'tags_placeholder' => 'Tag',
+        'content' => 'Conteúdo',
+        'is_featured' => 'É apresentado?',
+        'note' => 'Nota conteúdo',
+        'format_type' => 'Formato',
+    ],
+    'cannot_delete' => 'O post não pode ser excluído',
+    'post_deleted' => 'Post excluído',
+    'posts' => 'Postagens',
+    'post' => 'Publicar',
+    'edit_this_post' => 'Edite este post',
+    'no_new_post_now' => 'Não há nova postagem agora!',
+    'menu_name' => 'Postagens',
+    'widget_posts_recent' => 'Postagens recentes',
+    'categories' => 'Categorias',
+    'category' => 'Categoria',
+    'author' => 'Autor',
+];

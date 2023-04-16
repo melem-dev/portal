@@ -1,0 +1,50 @@
+<?php
+
+return [
+    'name' => 'Empresas',
+    'email' => [
+        'store_new_order_title' => 'Aviso sobre o novo pedido',
+        'store_new_order_description' => 'Envie email para o proprietário da loja quando um pedido feito',
+        'verify_vendor_title' => 'Verifique o fornecedor',
+        'verify_vendor_description' => 'Envie email para o administrador quando um fornecedor registrar',
+        'pending_product_approval_title' => 'Aprovação do produto pendente',
+        'pending_product_approval_description' => 'Envie email para o administrador quando um fornecedor postar seus produtos',
+        'vendor_account_approved_title' => 'Conta do fornecedor aprovada',
+        'vendor_account_approved_description' => 'Envie email para o fornecedor quando a conta aprovada',
+        'product_approved_title' => 'Produto aprovado',
+        'product_approved_description' => 'Envie email para o fornecedor quando o produto aprovado',
+        'withdrawal_approved_title' => 'Retirada aprovada',
+        'withdrawal_approved_description' => 'Envie email para o fornecedor quando a solicitação de retirada aprovada',
+    ],
+    'current_balance' => 'Balanço atual',
+    'settings' => [
+        'name' => 'Definições',
+        'title' => 'Configurações para o mercado',
+        'description' => 'Descrição',
+        'fee_per_order' => 'Taxa por pedido (%), sugira: 2 ou 3',
+        'fee_withdrawal' => 'Retirada de taxas (valor fixo)',
+        'check_valid_signature' => 'Verifique a assinatura válida nos ganhos do fornecedor',
+        'verify_vendor' => 'Verificação do fornecedor (o fornecedor pode postar sua listagem de produtos após ser verificada)',
+        'enable_product_approval' => 'Ativar aprovação do produto',
+        'hide_store_phone_number' => 'Ocultar o número de telefone da loja?',
+    ],
+    'theme_options' => [
+        'name' => 'Empresas',
+        'description' => 'Opções de temas para o Empresas',
+        'logo_vendor_dashboard' => 'Logotipo no painel do fornecedor (o padrão é o logotipo principal)',
+    ],
+    'store_name' => 'Nome da empresa',
+    'store_email' => 'Email da empresa',
+    'store_phone' => 'Telefone da empresa',
+    'product_name' => 'Nome do Produto',
+    'product_url' => 'URL do produto',
+    'withdrawal_amount' => 'Quantidade retirada',
+    'helpers' => [
+        'customer_status' => 'Se você alterar o status que não ":status" esta loja desse fornecedor também mudará para ":store"',
+        'store_status' => 'Se você mudar o status que não seja":status" A conta desta loja também mudará para":customer"',
+    ],
+    'tables' => [
+        'earnings' => 'Ganhos',
+        'products_count' => 'Contagem de produtos',
+    ],
+];
